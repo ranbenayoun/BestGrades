@@ -1,14 +1,23 @@
 # BestGrades
-This code taps into Michael Maltsev's Cheesfork (https://cheesefork.cf/) repository and extract the statistics about any course you'd like.
 
+This project pulls course statistics from Michael Maltsev’s [CheeseFork](https://cheesefork.cf/) and extracts key insights for any Technion course.
 
-This code enable to analyze:
-- The **average median grade** for each course
-- The **maximum grade** recorded in each course
+## 📊 What this code does:
 
-The script runs all the 2025 Malag courses & Sports, so every Technion student can make conclusions off it.
-The main analysis is for BioMedical Engineering courses, but every other sylabus can be parsed in for analysis.
+- Calculates the **average median grade** for each course
+- Identifies the **maximum grade** recorded for each course
 
-![Grades up in BME](https://github.com/ranbenayoun/BestGrades/blob/main/Average%Median%Grades%for%BME%Mandatory%Courses.png?raw=true)
+The script processes **all MALAG courses for 2025**, including sports courses, so every Technion student can benefit from the insights.
+
+While the main analysis focuses on **Biomedical Engineering** courses, the code supports any syllabus and can be adapted accordingly.
+
+## 📈 Visualizations
+
+### Average Median Grades – BME Mandatory Courses  
+![Average Median Grades](https://github.com/ranbenayoun/BestGrades/blob/main/Average%20Median%20Grades%20for%20BME%20Mandatory%20Courses.png?raw=true)
+
+### Maximum Grades – BME  
 ![Max Grades in BME](https://github.com/ranbenayoun/BestGrades/blob/main/MaxGrades.png?raw=true)
-![Malag grades](/https://github.com/ranbenayoun/BestGrades/Malag_courses_medians_over_time.png?raw=true)
+
+### MALAG Course Medians Over Time  
+![Malag grades](https://github.com/ranbenayoun/BestGrades/blob/main/Malag_courses_medians_over_time.png?raw=true)
