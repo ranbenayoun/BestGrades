@@ -11,6 +11,12 @@ The script processes **all MALAG courses for 2025**, including sports courses, s
 
 While the main analysis focuses on **Biomedical Engineering** courses, the code supports any syllabus and can be adapted accordingly.
 
+## Limitations
+
+- The statistics are based only on **available histograms**. Courses with no histograms (typically those with under 10 students or no shared data) are **not included** in the analysis.
+- **Course numbers change occasionally**, which can result in data loss or duplication.
+- In **2024**, the Technion changed course numbers from 6 digits to 7 or 8 digits. This created inconsistencies in the dataset.
+
 ## 📈 Visualizations
 
 ### Average Median Grades – BME Mandatory Courses  
